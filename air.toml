@@ -2,7 +2,6 @@ root = "." # The root directory of the project
 tmp_dir = "tmp" # The temporary directory where air will store its temporary files
 
 [build] # The build configuration
-  full_bin = "C:\\Users\\JaysonOlaguera\\workspace\\go-react-todolist\\tmp\\main.exe"
   bin = "main" # The name of the binary file to be generated after building the project
   cmd = "go build -o {{.Output}} {{.Input}}" # The command to build the project
   exclude = ["tmp/*", "client/*"]  # Specifies the directories to be excluded from monitoring for changes
